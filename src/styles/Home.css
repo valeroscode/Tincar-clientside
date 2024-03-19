@@ -1,0 +1,1493 @@
+
+html {
+  overflow-x: hidden;
+}
+h1 {
+  font-family:"Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 4rem;
+}
+
+#title {
+  position: relative;
+  background-color: #ff4c68;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 40px;
+  margin: 0;
+  border-radius: 0 0 50px 0;
+}
+
+.title-page {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.title-page button {
+  width: fit-content;
+}
+
+#find-car {
+  color: white;
+  margin-left: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  border: none;
+  font-family: "Montserrat";
+}
+
+#careers-btn {
+  color: white;
+  margin-left: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  border: none;
+  font-family: "Montserrat";
+}
+
+#sign-up-btn {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+  background-color: #FF4C68;
+  color: white;
+  border: 1px solid white;
+}
+
+#logIn-Btn {
+  border: none;
+  position: relative;
+  padding: 0.5rem;
+  color: black;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+#log-out-btn {
+  position: absolute;
+  right: -12rem;
+  top: -1rem;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 7px;
+  font-weight: 600;
+}
+
+.name-of-user {
+  color: white;
+  font-family: "Montserrat";
+  margin-left: 3rem;
+  text-decoration: underline;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 90px;
+  z-index: 1;
+  margin: 0;
+  padding: 2rem 0 2rem 0;
+  margin: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+#who-we-are {
+  display: flex;
+  justify-content: center;
+  margin: 0 3rem 8rem 3rem;
+}
+
+#who-we-are-cards {
+  display: flex;
+}
+
+#who-we-are-cards svg {
+  height: 2rem;
+}
+
+#who-we-are-cards h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  white-space: nowrap;
+}
+
+#who-we-are-left h5 {
+  margin-bottom: 1rem;
+  background-color: #FF4C68;
+  width: fit-content;
+  color: white;
+  padding: 0 0.5rem 0 0.5rem;
+  border-radius: 20px;
+}
+
+#who-we-are-left h3 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  width: 90%;
+  text-align: left;
+}
+
+.who-we-are-info {
+  color: gray;
+  margin-bottom: 3rem;
+  width: 90%;
+  text-align: left;
+}
+
+#who-we-are-cards div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+  border-left: 1px solid lightgray;
+}
+
+#who-we-are-cards div:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+#who-we-are-right {
+  position: relative;
+}
+
+#who-we-are-right img {
+  height: 20rem;
+}
+
+#who-we-are-right div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 95%;
+  width: 35%;
+  background-color: #FF4C68; /* Background color */
+  border-top-right-radius: 300px; /* Half of the height to create the curve */
+  border-bottom-right-radius: 300px;
+}
+
+#dont-settle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+#dont-settle-right {
+  background-color: #FF4C68;
+  color: white;
+  width: 65%;
+  padding: 5rem 8% 5rem 5rem
+}
+
+#dont-settle-right h2 {
+  font-weight: 800;
+}
+
+#dont-settle-right button {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 7px;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+#dont-settle-left {
+  position: relative;
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#dont-settle-left img {
+  width: 70%;
+}
+
+#dont-settle-left img:first-child {
+  position: absolute;
+  left: 15%;
+  bottom: 2.5rem;
+  height: 100%;
+  z-index: 1;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+#dont-settle-left img:last-child {
+  position: relative;
+  height: 120%;
+  left: 0;
+  object-fit: cover;
+  border-radius: 0 0 3px 3px;
+}
+
+#more-info-about {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+#flex-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 5rem;
+}
+
+#flex-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: relative;
+  margin-top: 10rem;
+}
+
+#flex-2 .flex-text {
+  position: relative;
+  margin-left: 5rem;
+}
+
+
+#flex-2 .flex-text button {
+  background-color: #FF4C68;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 7px;
+}
+
+#flex-1 button {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+.flex-text h3 {
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.flex-text div {
+  display: flex;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.flex-text div svg {
+  background-color: #FF4C68;
+  padding: 0.5rem;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.flex-media-info-block {
+  background-color: #FF4C68;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: start;
+  width: 60%;
+  border-radius: 7px;
+  box-shadow: 0px 0px 20px #FF4C68;
+  position: relative;
+}
+
+.flex-media-info-block div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flex-media {
+  position: relative;
+}
+
+.flex-media img {
+  position: absolute;
+  z-index: -1;
+  border-radius: 7px;
+  bottom: -2rem;
+  height: 20rem;
+  left: 2rem;
+}
+
+.flex-media-info-block svg {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.flex-media-info-block-2 svg {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.flex-media-info-block-2 {
+  background-color: #FF4C68;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: start;
+  width: 60%;
+  border-radius: 7px;
+  box-shadow: 0px 0px 20px #FF4C68;
+  position: relative;
+  left: 10rem;
+  bottom: 4.5rem;
+}
+
+.flex-media-info-block-2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flex-2-info {
+  width: 25rem;
+}
+
+#achieve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+#achieve hr {
+  background-color: gray;
+  height: 2px;
+  width: 60%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#achieve h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  width: 40%;
+  text-align: center;
+  color: black;
+}
+
+#achieve h1 a {
+  background-color: #FF4C68;
+  padding: 0 0.5rem;
+  color: white;
+}
+
+#awards {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.margin {
+  margin-right: 3rem;
+}
+
+#awards div {
+  display: flex;
+  align-items: center;
+}
+
+#awards div p {
+  margin: 0;
+  font-size: 600;
+  font-family: Montserrat;
+}
+
+#awards div svg {
+  margin: 0;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  border: 2px solid #FF4C68;
+}
+
+#customer-stats {
+  display: flex;
+}
+
+#customer-stats h2 {
+  margin-right: 10rem;
+}
+
+#stats {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#stats .stat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 3rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+#stats .stat .background-div {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+}
+
+#stats .stat .colored-div {
+  background-color: #FF4C68;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#stats .stat .colored-div p {
+  margin: 0 0.5rem 0 0.5rem;
+  font-size: 0.8rem;
+  color: white;
+  font-family: Montserrat;
+}
+
+#more-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem;
+  position: relative;
+}
+
+#more-stats h2 {
+  font-weight: 800;
+  width: 30rem;
+  margin-right: 15rem;
+}
+
+#stat-numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+#stat-numbers .stat-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#stat-numbers .stat-info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+#stat-numbers .stat-info div p {
+  font-family: Montserrat;
+}
+
+#stat-numbers .stat-info div svg {
+  height: 1.5rem;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 9rem;
+}
+
+#links .links-div {
+  margin: 1rem;
+  width: 20rem;
+  box-shadow: 0 0 15px gray;
+  border-radius: 7px;
+}
+
+#links .links-div div {
+  border-radius: 0 0 7px 7px;
+  background-color: whitesmoke;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#links div h3 {
+  margin-top: 1rem;
+  font-family: Montserrat;
+  font-weight: 800;
+}
+
+#links div img {
+  height: 14rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+#links div button {
+  margin-top: 1rem;
+  background-color: #FF4C68;
+  padding: 0.5rem;
+  color: white;
+  font-weight: 600;
+  font-family: Montserrat;
+  border: none;
+  border-radius: 7px;
+}
+
+#testimonials {
+  padding: 7% 15% 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  font-family: Montserrat;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#pricing {
+  padding: 70px 50px 0 50px;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 80px;
+}
+h4 {
+  font-family: "ubuntu";
+  font-weight: bold;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 15px;
+  padding-top: 70px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.p1 {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.bar1 {
+  margin-left: auto;
+  display: flex;
+  align-items: baseline;
+}
+
+.button {
+  font-family: "Montserrat";
+  margin: 0 7px 0 7px;
+}
+
+.title-page {
+  margin-bottom: 20px;
+  padding-bottom: 300px;
+}
+.row {
+  margin-top: 10px;
+}
+
+.i-phone {
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  transform: rotate(0deg) scale(0.7);
+}
+
+.i-phone .porsche {
+position: relative;
+transform: rotate(0deg) scale(0.8);
+height: 40rem;
+top: -3rem;
+left: -20rem;
+}
+
+.icon-home {
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+
+.title-container {
+position: relative;
+top: 2rem;
+} 
+
+.feature-box {
+  text-align: center;
+  display: inline-block;
+}
+
+.nav-link {
+margin: 0 15px 0 15px;
+font-family: Montserrat;
+}
+
+.nav-link a {
+text-decoration: none;
+color: white;
+}
+
+.content {
+  padding-bottom: 25px;
+}
+
+.sponsor {
+  width: 18%;
+  padding: 0 25px 0 25px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  color: #ef8172;
+}
+
+.carousel-item em {
+color: white;
+}
+
+.testimonial-text {
+  padding-bottom: 20px;
+color: white;
+}
+.row .card {
+  padding: 0;
+}
+.card-body {
+  text-align: center;
+}
+.card-body .editbtn {
+  position: relative;
+  top: 2.5rem;
+}
+.card-header {
+  text-align: center;
+}
+.pricing-header {
+  text-align: left;
+}
+.pricing-sub {
+  font-family: Montserrat;
+  color: #8f8f8f;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.carousel-control-prev {
+  padding-left: 600px;
+}
+
+.superhero-pic {
+height: 13rem;
+border-radius: 100%;
+max-width: 14rem;
+object-fit: cover;
+}
+
+.the-coaster {
+  width: 100%;
+}
+
+.button2 {
+  margin: 0 7px 0 7px;
+}
+
+.cta-butt {
+  padding-top: px;
+}
+
+.font3 {
+  padding-bottom: 30px;
+}
+
+.social-icons {
+  text-align: center;
+  color: #000000;
+  margin: 0 7px 0 7px;
+}
+
+.copyright {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+#demo-acc {
+  margin-top: 1rem;
+}
+
+#demo-acc h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+#demo-acc p {
+  margin-bottom: 0;
+}
+
+@keyframes fadeIn {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+
+.fadeLogin {
+animation: fadeIn 0.5s;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  }
+  }
+
+.fadeOut {
+  animation: fadeOut 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+  0% {
+  width: 45%;
+  }
+  100% {
+  width: 470%;
+  }
+  }
+
+  .slideIn {
+    animation: slideIn 800ms;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slideOut {
+    0% {
+    width: 470%;
+    }
+    100% {
+    width: 45%;
+    }
+    }
+
+    .slideOut {
+      animation: slideOut 800ms;
+      animation-fill-mode: forwards;
+    }
+
+#already-have {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  padding: 0 2rem;
+}
+
+#already-have h2 {
+  font-family:"Montserrat";
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+#login-section {
+position: fixed;
+height: 80vh;
+width: 50vw;
+background-color: white;
+display: none;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+left: 25vw;
+top: 10vh;
+z-index: 100000;
+border-radius: 10px;
+opacity: 0;
+}
+
+.btn-dark a {
+font-family: 'Montserrat';
+}
+
+#login {
+z-index: 1000;
+background-color: white;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 10px 0 0 10px;
+}
+
+#login #login-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#login #login-form h2 {
+font-family:"Montserrat";
+font-weight: 700;
+font-size: 2.7rem;
+}
+
+#login div p {
+font-family:"Montserrat";
+font-weight: 200;
+color: gray;
+}
+
+#login div input {
+background-color: rgba(255, 76, 104, 0.1);
+width: 60%;
+border: none;
+padding: 0.5rem;
+border-radius: 100px;
+}
+
+#password {
+margin-top: 0.8rem;
+}
+
+#login div button {
+margin-top: 0.8rem;
+border: 1px solid #FF4C68;
+border-radius: 100px;
+background-color: #FF4C68;
+color: white;
+font-family:"Montserrat";
+font-weight: 400;
+width: fit-content;
+padding: 0.5rem 4rem;
+white-space: nowrap
+}
+
+#backdrop {
+position: fixed;
+height: 100vh;
+width: 100vw;
+left: 0;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+#register #new-here {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family:"Montserrat";
+font-weight: 300;
+color: white;
+}
+
+#register h2 {
+font-family:"Montserrat";
+font-weight: 600;
+text-align: left;
+}
+
+#register button {
+margin-top: 0.8rem;
+border: 1px solid white;
+border-radius: 100px;
+background-color: white;
+color: black;
+font-family:"Montserrat";
+font-weight: 400;
+padding: 0.5rem 2.5rem;
+}
+
+#register {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #ff4c68;
+height: 100%;
+width: 45%;
+z-index: 1000;
+border-radius: 0 10px 10px 0;
+padding: 0 2rem;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+#account-btns {
+  position: absolute;
+  right: 2rem;
+}
+
+#create-account {
+display: none;
+flex-direction: column;
+align-items: center;
+font-family:"Montserrat";
+font-weight: 300;
+color: white;
+opacity: 0;
+justify-content: center;
+display: flex;
+}
+
+#create-account p {
+  text-align: left;
+}
+
+#create-account h2 {
+  font-size: 3rem;
+}
+
+#create-account input {
+  outline: none;
+  border-radius: 7px;
+  border: none;
+  height: 3rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.logo {
+position: absolute;
+left: 2rem;
+top: 2rem;
+display: flex;
+color: #ff4c68;
+}
+
+#account {
+  display: flex;
+}
+
+#account button {
+  margin-left: 2rem;
+  border-radius: 7px;
+  border: none;
+  position: relative;
+  bottom: 0.3rem;
+  font-weight: 600;
+}
+
+#new-here .X {
+position: absolute;
+right: 3rem;
+top: 2rem;
+font-size: 1.5rem;
+border: 1px solid white;
+border-radius: 100px;
+padding: 0 0.5rem;
+cursor: pointer;
+}
+.X:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+#new-here p {
+  text-align: left;
+}
+
+#create-account .X {
+position: absolute;
+right: 1rem;
+top: 1rem;
+font-size: 1rem;
+border: 1px solid white;
+border-radius: 100px;
+padding: 0 0.5rem;
+cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+ 
+  #login #login-form h2 {
+    font-size: 1.7rem;
+  }
+  #register h2 {
+    font-size: 1.7rem;
+  }
+  
+}
+
+@media screen and (max-width: 1269px) {
+.i-phone .porsche {
+height: 40rem;
+top: 7.2rem;
+left: -10rem;
+}
+
+}
+
+@media screen and (max-width:1190px) {
+  #login-section {
+    width: 100%;
+    left: unset;
+    margin: 0;
+    top: 5vh;
+    height: 90vh;
+  } 
+  #register h2 {
+    font-size: 3rem;
+  }
+  #create-account {
+    width: 80%;
+  }
+  #flex-1 {
+    left: 3rem;
+    
+  }
+  .flex-text h3 {
+    text-align: left;
+  }
+  .flex-media img {
+    height: 15rem;
+  }
+  
+  #who-we-are {
+    flex-wrap: wrap;
+  }
+
+  #flex-2 .flex-text {
+    margin-left: 0rem;
+  }
+
+  .flex-2-info {
+    text-align: left;
+  }
+
+  #who-we-are-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  #who-we-are-cards div:first-child {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width:1079px) {
+  #more-stats h2 {
+    margin-right: 1rem;
+    text-align: left;
+  }
+
+  #more-stats {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  #links {
+    flex-wrap: wrap;
+  }
+  #customer-stats h2 {
+    margin-right: 1rem;
+    text-align: left;
+  }
+  #title {
+  padding-left: 2rem;
+  }
+  .title-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  }
+  .i-phone {
+  position: relative;
+  right: 16vw;
+  top: 0;
+  }
+  .i-phone img {
+  height: 60vw;
+  }
+  .title-page {
+  margin: 0;
+  padding-bottom: 0;
+  }
+  .navbar-nav {
+  flex-direction: row;
+  }
+ 
+  }
+
+@media screen and (max-width: 1078px) {
+.col-lg-6 {
+height: 18rem;
+} 
+.i-phone .porsche {
+height: 35rem;
+top: -8.5rem;
+left: -10rem;
+}
+}
+
+@media screen and (max-width: 991px) {
+.title-page {
+position: relative;
+top: 3rem;
+}
+.sponsor {
+width: 17rem;
+}
+
+}
+
+@media screen and (max-width: 865px) {
+
+  #customer-stats h2 {
+    margin-bottom: 3rem;
+  }
+  #customer-stats {
+    flex-direction: column;
+    margin: 2rem;
+  }
+  #stats .stat .colored-div p {
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  #achieve h1 {
+    width: 90%;
+  }
+  #achieve hr {
+    width: 90%;
+  }
+  #awards div p {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+#press {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+#dont-settle-right {
+  padding: 2rem;
+}
+#dont-settle-right button {
+  margin-top: 0.5rem;
+}
+#flex-1 {
+  flex-wrap: wrap;
+  left: 0rem;
+}
+.flex-text {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-media {
+  display: flex;
+  justify-content: center;
+}
+.flex-media-info-block-2 {
+  left: 0;
+  text-align: left;
+}
+}
+
+@media screen and (max-width: 819px) {
+  #flex-2 .flex-media {
+    display: none;
+  }
+  #more-stats {
+    flex-direction: column;
+  }
+  #more-stats h2 {
+    width: unset;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  #stat-numbers .stat-info div p {
+    text-align: left;
+  }
+
+ 
+}
+
+@media screen and (max-width: 715px) {
+
+.col-lg-6 {
+height: 18rem;
+} 
+.i-phone .porsche {
+height: 30rem;
+top: -4.5rem;
+left: -10rem;
+}
+}
+
+@media screen and (max-width: 707px) {
+.navbar-nav {
+position: absolute;
+left: -1rem;
+top: 5rem;
+}
+.title-page {
+position: relative;
+top: 5rem;
+}
+}
+
+@media screen and (max-width: 638px) {
+  #who-we-are-cards {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 588px) {
+
+.flex-text {
+  margin: 1rem 1rem 6rem 1rem;
+}
+.flex-text p {
+  text-align: left;
+}
+.flex-media-info-block {
+  width: 90%;
+}
+.flex-media-info-block div {
+  text-align: start;
+}
+.i-phone .porsche {
+height: 25rem;
+top: 0rem;
+left: -9rem;
+}
+#who-we-are {
+  margin: 0 0 4rem 0;
+}
+#who-we-are-right img {
+  height: 15rem;
+}
+}
+
+@media screen and (max-width: 563px) {
+  #register h2 {
+    font-size: 2rem;
+  }
+  #create-account p {
+    text-align: left;
+  }
+  #already-have h2 {
+    font-size: 1.5rem;
+  }
+
+  #register {
+  padding: 1rem 0.5rem;
+  }
+
+  #register button {
+    padding: 0.5rem 1rem;
+  }
+
+.nav-item {
+width: 30vw;
+}
+.superhero-pic {
+height: 8rem;
+max-width: 8rem;
+}
+.carousel-control-next-icon {
+position: relative;
+top: 8.5rem;
+}
+.carousel-control-prev-icon {
+position: relative;
+top: 8.5rem;
+}
+}
+
+@media screen and (max-width: 563px) {
+.carousel-control-next-icon {
+position: relative;
+top: 5rem;
+}
+.carousel-control-prev-icon {
+position: relative;
+top: 5rem;
+}
+.carousel-item em {
+display: block;
+position: relative;
+}
+#dont-settle-left {
+  display: none;
+}
+#dont-settle-right {
+  width: unset;
+}
+#account-btns {
+  position: relative;
+  right: -1rem;
+}
+
+#account-btns button {
+  width: 90%;
+  margin-bottom: 1rem;
+}
+#login div button {
+  padding: 0.5rem 1rem;
+}
+#create-account {
+  width: 95%;
+}
+}
+
+@media screen and (max-width: 474px) {
+.i-phone .porsche {
+height: 20rem;
+top: 4rem;
+left: -7rem;
+}
+#who-we-are-right img {
+  height: 12rem;
+}
+}
+
+@media screen and (max-width: 460px) {
+  .flex-text p {
+    width: unset;
+  }
+
+  #flex-2 {
+    margin: 10rem 1rem 1rem 1rem;
+  }
+  #more-info-about {
+    margin-bottom: 0rem;
+  }
+  
+}
+
+@media screen and (max-width: 440px) {
+  .margin {
+    margin-right: 0.5rem;
+  }
+  #login-section {
+    top: 5rem;
+    height: 60vh;
+  }
+  #login-X {
+    border: 2px solid lightgray;
+    top: 1.5rem;
+    right: 1rem;
+    color: gray;
+  }
+  #backdrop {
+    height: 120vh;
+  }
+  .name-of-user {
+    width: 120%;
+    margin-left: 0rem;
+    left: 1rem;
+    position: absolute;
+    top: 3rem;
+}
+}
+
+@media screen and (max-width: 398px) {
+ 
+  #already-have h2 {
+    font-size: 1rem;
+  }
+  #register h2 {
+    font-size: 1.5rem;
+  }
+.i-phone .porsche {
+height: 15rem;
+top: 8rem;
+left: -7rem;
+}
+.title-page {
+position: relative;
+top: 8rem;
+}
+.nav-item {
+width: 40vw;
+}
+}
+
+
